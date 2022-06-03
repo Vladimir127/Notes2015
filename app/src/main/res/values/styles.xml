@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style parent="android:style/Theme.Holo.Light" name="Theme.GreyBackground">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:windowBackground">@color/grey</item>
+    	<item name="android:colorBackground">@color/grey</item>
+    	<item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    	<item name="android:actionOverflowButtonStyle">@style/MyOverFlowStyle</item>
+   	</style>
+   	
+    <style parent="android:style/Theme.Holo.Light" name="Theme.WhiteBackground">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:windowBackground">@color/white</item>
+    	<item name="android:colorBackground">@color/white</item>
+    	<item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    	<item name="android:actionOverflowButtonStyle">@style/MyOverFlowStyle</item>
+   	</style>
+    
+    <style parent="android:style/Widget.Holo.ActionBar" name="MyActionBar">
+        <item name="android:background">@color/blue</item>
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+    </style>
+    
+    <style parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title" name="TitleTextStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="MyOverFlowStyle"  parent="android:style/Widget.ActionButton.Overflow">
+   		<item name="android:src">@drawable/ic_action_overflow</item>  
+	</style>
+    
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/animation_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/animation_exit</item>
+        <item name="android:activityCloseExitAnimation">@anim/animation_close_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/animation_close_enter</item>
+    </style>
+</resources>

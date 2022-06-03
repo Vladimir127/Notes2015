@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="no_notes">No notes yet</string>
+    <string name="menu_insert">Add Note</string>
+    <string name="menu_delete">Delete Note</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="menu_copy">Copy Note</string>
+    <string name="add_note">Tap the plus button to create a note!</string>
+    <string name="alert_delete">Do you really want to delete the note?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="just_now">Just now</string>
+    <string name="seconds_ago">seconds ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="one_hour_ago">One hour ago</string>
+    <string name="two_hours_ago">Two hours ago</string>
+    <string name="three_hours_ago">Three hours ago</string>
+    <string name="password_protect">Set password</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-1694320985526388/5201162751</string>
+    <string name="yesterday_at">Yesterday at</string>
+    <string name="today_at">Today at</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.razrabotkin.notes" android:versionCode="5" android:versionName="1.4">
+    <uses-sdk android:minSdkVersion="32"/>
+    
+    <!-- Разрешения, необходимые для запуска рекламы-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+    <application
+        android:name=".MyApplication"
+        android:icon="@drawable/icon">
+        
+        <!--Эти метаданные необходимы для работы Google Play Services.-->
+        <meta-data android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+        
+        <activity android:name="com.razrabotkin.notes.Notepadv3" android:label="@string/app_name" android:theme="@style/Theme.GreyBackground"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.razrabotkin.notes.NoteEdit" android:theme="@style/Theme.WhiteBackground" android:label="@string/app_name" android:windowSoftInputMode="stateHidden"/>
+        
+        <!--Include the AdActivity configChanges and theme. -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        
+    </application>
+</manifest> 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Заметки</string>
+    <string name="no_notes">Нет заметок</string>
+    <string name="menu_insert">Добавить</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="title">Заголовок</string>
+    <string name="body">Текст</string>
+    <string name="confirm">Сохранить</string>
+    <string name="edit_note">Редактировать</string>
+    <string name="menu_copy">Копировать</string>
+    <string name="add_note">Нажмите на плюсик, чтобы создать заметку!</string>
+    <string name="alert_delete">Вы действительно хотите удалить заметку?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="just_now">Только что</string>
+    <string name="seconds_ago">сек. назад</string>
+    <string name="minutes_ago">мин. назад</string>
+    <string name="one_hour_ago">Час назад</string>
+    <string name="two_hours_ago">Два часа назад</string>
+    <string name="three_hours_ago">Три часа назад</string>
+    <string name="password_protect">Установить пароль</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-1694320985526388/5201162751</string>
+    <string name="yesterday_at">Вчера в</string>
+    <string name="today_at">Сегодня в</string>
+</resources>
